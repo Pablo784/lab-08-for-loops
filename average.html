@@ -1,0 +1,22 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var average = 0;
+      var sum = 0;
+// Each time the page loads, we reset the value of our variables "average" and "sum"
+      for (var i = 0; i < 4; i = i + 1) {
+        var userinput = prompt("Number please.");
+        var usernum = parseInt(userinput, 10);
+        sum = sum + usernum; // add up the numbers each time the loop cycles
+        console.log("User number is: " + usernum + "and the current sum is:"  + sum);
+      }
+      average = sum / 4;
+      console.log("The average is: " + average);
+    </script>
+  </body>
+</html>
