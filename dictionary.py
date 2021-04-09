@@ -5,3 +5,6 @@ for k, v in myData.items():
 
 print("ALL KEYS: " , myData.keys())
 print("ALL VALUES: " , myData.values())
+
+# In the terminal the ALL KEYS AND ALL VALUES HAS THE WORDS dict_keys and dict_values next to it
+# and I don't know why but in the end I got the ouput that I wanted.
