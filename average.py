@@ -8,3 +8,5 @@ for n in range (num):
 avg = total_sum/num
 
 print("The average is :", avg)
+
+# I consulted a YOUTUBE video for help with this file. Credit goes to that YOUTUBE video that I saw. 
